@@ -19,7 +19,7 @@ This project is make for the learner and practice Prisma hands-on by building a 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Apollo-Level2-Web-Dev/next-blog-starter.git
+git clone https://github.com/Farhad25906/Vote-Wars-using-prisma.git
 cd next-blog-starter
 ```
 
