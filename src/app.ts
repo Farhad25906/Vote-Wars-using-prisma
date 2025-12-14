@@ -3,6 +3,7 @@ import cors from "cors";
 import express from "express";
 import usersRouter from "./modules/users/users.router";
 import pollRouter from "./modules/post/post.router";
+import voteRouter from "./modules/vote/vote.route";
 const app = express();
 
 // Middleware
@@ -20,6 +21,7 @@ app.use(
 // Connect Api
 app.use("/api/v1/users", usersRouter);
 app.use("/api/v1/polls", pollRouter);
+app.use("/api/v1/votes", voteRouter);
 // Default route for testing
 app.get("/", (_req, res) => {
   res.send("API is running");
